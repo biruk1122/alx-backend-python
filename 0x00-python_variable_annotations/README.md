@@ -54,5 +54,4 @@ school, a string with a value of “Holberton”
 Hint: look into TypeVar
 
 12. Type Checking
-    #advanced
     Use mypy to validate the following piece of code and apply any necessary changes.
