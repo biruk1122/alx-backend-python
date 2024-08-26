@@ -73,7 +73,7 @@ class TestGithubOrgClient(unittest.TestCase):
 )
 class TestIntegrationGithubOrgClient(unittest.TestCase):
     """ Class for Integration test of fixtures """
-
+    
     @classmethod
     def setUpClass(cls):
         """A class method called before tests in an individual class are run"""
@@ -118,3 +118,5 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
     def tearDownClass(cls):
         """A class method called after tests in an individual class have run"""
         cls.get_patcher.stop()
+
+
